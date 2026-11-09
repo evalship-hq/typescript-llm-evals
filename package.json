@@ -1,0 +1,20 @@
+{
+  "name": "typescript-llm-evals",
+  "private": true,
+  "description": "LLM evals for a TypeScript or Next.js app, run in CI on every pull request: a support bot, its tinyeval suite and a GitHub Actions workflow.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}
