@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.20.5",
+    "tinyeval-cli": "^0.11.0",
     "typescript": "^7.0.2"
   }
 }
